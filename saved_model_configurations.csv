@@ -1,0 +1,11 @@
+,activation,regularization,batch_size,hidden_layer,learning_rate,val_accuracy
+model_1,leaky_relu,batch_norm,32,large,0.001,0.5538
+model_2,leaky_relu,batch_norm_dropout,32,large,0.001,0.5674
+model_3,leaky_relu,batch_norm_dropout,64,medium,0.001,0.5544
+model_4,leaky_relu,batch_norm_dropout,64,large,0.001,0.5647
+model_5,gelu,batch_norm,32,medium,0.001,0.5516
+model_6,gelu,batch_norm,32,large,0.001,0.5568
+model_7,gelu,batch_norm_dropout,32,medium,0.001,0.559
+model_8,gelu,batch_norm_dropout,32,large,0.001,0.5644
+model_9,gelu,batch_norm_dropout,64,medium,0.001,0.5564
+model_10,gelu,batch_norm_dropout,64,large,0.001,0.576

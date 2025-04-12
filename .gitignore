@@ -25,10 +25,3 @@ ENV/
 # Local development settings
 .env
 .env.local
-
-# Dataset files (if they are large and can be regenerated)
-*.npy
-
-# Generated files
-*.png
-*.csv
